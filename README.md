@@ -43,19 +43,22 @@ These tools were used to graph and to anaylze the data.
 My results are shown below in the following graphs:
 
 ![Image#1](https://user-images.githubusercontent.com/77858100/206062544-f28c63f3-93c6-48ca-8c48-a2a7d411db8b.JPG)
+![Image#2](https://user-images.githubusercontent.com/77858100/206062617-6827794e-0525-4860-9db4-7c33df377a5d.JPG)
+
 (The first graph is in bar plot and the second is in line plot)
 
 In this graph we are shown the amount of rides over the course of the month. The interesting thing about this is the trend that repeats itself every seven days. This being the weekly cycle. This doesnt really answer our question and seems to be too inconclusive and too inconsitant to definetly say what day we should travel on. So lets go another step and look into the average rides per week in  the month of July.
 
-INSERT IMAGE
+[Image#3](https://user-images.githubusercontent.com/77858100/206062639-a7949f4a-126b-4b49-b1d8-9a53f5eba5a1.JPG)
 
-Our second graph here shows the average amount of rides taken per each day of the week. This allows us to narrow down the day upon which the least amount of rides occur. That day being Monday. Now we know which day to travel but now we want to figure out which time of the day would be the best to travel at. Not only for monday but for all the days as well.
+Our second graph here shows the average amount of rides taken per each day of the week. This allows us to narrow down the day upon which the least amount of rides occur. That day being Monday. Now we know which day to travel but now we want to figure out which time of the day would be the best to travel at. Not only for monday !
+but for all the days as well.
 
-INSERT IMAGE
+![Image#4](https://user-images.githubusercontent.com/77858100/206062697-129e712e-e378-4b7e-8b1d-af55412ab568.JPG)
 
 The image of above shows a heatmap of the average amount of rides at specific times during each day of the week. This allows us to pinpoint the busiest days and times during the week. This time being around 5:30 pm - 6:15 pm. The day and time being the least busy is from 12 am - 3 am on the days Monday-Thursday. 
 
-INSERT IMAGE
+![Image#5](https://user-images.githubusercontent.com/77858100/206062703-ba6e0503-e860-4039-9f8c-9a5b9246df7b.JPG)
 
 The last images what the heatmap showed but in a line plot for easier repersentation.
 
