@@ -1,4 +1,6 @@
 # Data_Science_Final_Project
+## Before you run in Juypter
+Download this data set from this post on kaggle [here](https://www.kaggle.com/datasets/fivethirtyeight/uber-pickups-in-new-york-city).
 
 ## Introduction
 
@@ -95,17 +97,10 @@ The analysis on the dataset above is useful because shows us the times to avoid 
 
 This project could be imporved over time by simply adding data from the years to come to keep the estimates accurate.
 
-## Summary
-
-
 
 ## References
-[1] [GitHub Integration (Heroku GitHub Deploys)](https://devcenter.heroku.com/articles/github-integration)
+[1] [Uber Pickups in New York City](https://www.kaggle.com/datasets/fivethirtyeight/uber-pickups-in-new-york-city)
 
-[2] [Streamlit](https://www.streamlit.io/)
+[2] [Pandas API Documentation](https://pandas.pydata.org/docs/reference/index.htmlhttps://www.streamlit.io/)
 
-[3] [The pycaret post](https://towardsdatascience.com/build-and-deploy-machine-learning-web-app-using-pycaret-and-streamlit-28883a569104)
-
-[4] [Insurance dataset: git](https://github.com/stedy/Machine-Learning-with-R-datasets)
-
-[5] [Insurance dataset: kaggle](https://www.kaggle.com/mirichoi0218/insurance)
+[3] [Github Editing wiki content](https://docs.github.com/en/communities/documenting-your-project-with-wikis/editing-wiki-content)
