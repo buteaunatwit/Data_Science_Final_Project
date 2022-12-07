@@ -4,7 +4,7 @@
 
 The objective of this project is to use Jupyter and its imports to analyze Uber Data. I wanted to know when the best time to take an uber would be, that being the time with the lowest amount of rides. I quickly realized that a lot of people take ubers and the amount of data that would be in a avaliable for a given year across the USA would be too much for my small computer to handle. So I bagan searching Kaggle.
 
-On Kaggle I was able to find a "small" data set from 2014 in NY. [here](https://github.com/buteaunatwit/Data_Science_Final_Project/blob/main/Final_Noah_Buteau_Uber_Data_Analysis.ipynb). I will use this to answer a my questions:
+On Kaggle I was able to find a "small" data set from 2014 in NY. I will use this to answer a my questions:
 
 When is the most travled time during the day?
 Week?
