@@ -8,7 +8,8 @@ On Kaggle I was able to find a "small" data set from 2014 in NY. INSERT LINK. I 
 
 When is the most travled time during the day?
 Week?
-Month?
+When is the least travled time during the day?
+Week?
 
 ## Selection of Data
 What is the source of the dataset?
@@ -33,27 +34,40 @@ To make the date and time more readable I converting them from a str value to a 
 ## Methods
 
 Tools:
-- NumPy, SciPy, Pandas, and Scikit-learn for data analysis and inference
-- Streamlit (st) for web app design
-- GitHub and Heroku for web app deployment and hosting/version control
-- VS Code as IDE
+- NumPy, Pandas, matplotlib.pyplot, and seaborn
+- Juypter for coding 
 
-Inference methods used with Scikit:
-- linear regression model
-- Features: OneHotEncoder/ColumnTransformer, StandardScaler, PolynomialFeatures and SimpleImputer for missing values
-- Pipeline to tie it all together
-- GridSearchCV for hyperparameter tuning
+These tools were used to graph and to anaylze the data.
 
 ## Results
-The app is live at https://ds-example.herokuapp.com/
-It allows for online and batch processing as designed by the pycaret post:
-- Online: User inputs each feature manually for predicting a single insurance cost
-![online screenshot](./online.png)
-- Batch: It allows the user to upload a CSV file with the 6 features for predicting many instances at once. 
-  - An [X_test.csv](./X_test.csv) is provided as a batch processing sample. Corresponding insurance prices are available at [y_test.csv](./y_test.csv)
-![batch screenshot](./batch.png)
+My results are shown below in the following graphs:
 
-I am not adding any visualizations to this example, though st supports it. Couple good examples are [here](https://share.streamlit.io/tylerjrichards/book_reco/books.py) and [here](https://share.streamlit.io/streamlit/demo-uber-nyc-pickups/)
+INSERT IMAGE
+(The first graph is in bar plot and the second is in line plot)
+
+In this graph we are shown the amount of rides over the course of the month. The interesting thing about this is the trend that repeats itself every seven days. This being the weekly cycle. This doesnt really answer our question and seems to be too inconclusive and too inconsitant to definetly say what day we should travel on. So lets go another step and look into the average rides per week in  the month of July.
+
+INSERT IMAGE
+
+Our second graph here shows the average amount of rides taken per each day of the week. This allows us to narrow down the day upon which the least amount of rides occur. That day being Monday. Now we know which day to travel but now we want to figure out which time of the day would be the best to travel at. Not only for monday but for all the days as well.
+
+INSERT IMAGE
+
+The image of above shows a heatmap of the average amount of rides at specific times during each day of the week. This allows us to pinpoint the busiest days and times during the week. This time being around 5:30 pm - 6:15 pm. The day and time being the least busy is from 12 am - 3 am on the days Monday-Thursday. 
+
+INSERT IMAGE
+
+The last images what the heatmap showed but in a line plot for easier repersentation.
+
+ANSWER:
+When is the most travled time during the day?
+- 5:30-6:15 pm
+When is the most travled time during the week?
+- Tuesday
+When is the least travled time during the day?
+- 12:00 - 3:00 am
+When is the least travled time during the week?
+- Monday
 
 ## Discussion
 Experimenting with various feature engineering techniques and regression algorithms, I found that linear regression with one-hot encoding provided one of the highest accuracies despite its simpler nature. Across all these trials, my training accuracy was around 75% to 77%. Thus, I decided the deploy the pipelined linear regression model. The data was split 80/20 for testing and has a test accuracy of 73%. 
