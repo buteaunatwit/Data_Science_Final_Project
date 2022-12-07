@@ -96,12 +96,7 @@ The analysis on the dataset above is useful because shows us the times to avoid 
 This project could be imporved over time by simply adding data from the years to come to keep the estimates accurate.
 
 ## Summary
-This sample project deploys a supervised regression model to predict insurance costs based on 6 features. After experimenting with various feature engineering techniques, the deployed model's testing accuracy hovers around 73%. 
 
-The web app is designed using Streamlit, and can do online and batch processing, and is deployed using Heroku and Streamlit. The Heroku app is live at https://ds-example.herokuapp.com/.
-
-Streamlit is starting to offer free hosting as well. The same repo is also deployed at [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/memoatwit/dsexample/app.py)  
-More info about st hosting is [here](https://docs.streamlit.io/en/stable/deploy_streamlit_app.html).
 
 
 ## References
