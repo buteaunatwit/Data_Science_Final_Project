@@ -70,23 +70,30 @@ The last images what the heatmap showed but in a line plot for easier repersenta
 
 ANSWER:
 When is the most travled time during the day?
+
 - 5:30-6:15 pm
+
 When is the most travled time during the week?
+
 - Tuesday
+
 When is the least travled time during the day?
+
 - 12:00 - 3:00 am
+
 When is the least travled time during the week?
+
 - Monday
 
 ## Discussion
-Experimenting with various feature engineering techniques and regression algorithms, I found that linear regression with one-hot encoding provided one of the highest accuracies despite its simpler nature. Across all these trials, my training accuracy was around 75% to 77%. Thus, I decided the deploy the pipelined linear regression model. The data was split 80/20 for testing and has a test accuracy of 73%. 
 
-I looked at some kaggle notebooks studying this problem and found this to be an acceptable level of success for this dataset. I am interested in analyzing the training data further to understand why a higher accuracy can't be easily achieved, especially with non-linear kernels. 
+For my dataset we are in the time period of July 2014 in NYC a commonly travled place by most. With this dataset we are able to predict the buisest times during the days of the weeks in the month of July. The answers to the question help people who are traveling to NYC in the following year. Those indivduals can use this data to predict when the hardest times to get an uber will be. They can also see when the highest average amount of rides occur allowing them to plan their night effiectivly. For instance if you wanted to spend your night in time square till 1:00 am the amount of rides that occur at that time are close to none so you may have isssues getting a ride. 
 
-One unexpected challenge was the free storage capacity offered by Heroku. I experimented with various versions of the libraries listed in `requirements.txt` to achieve a reasonable memory footprint. While I couldn't include the latest pycaret library due to its size, the current setup does include TensorFlow 2.3.1 (even though not utilized by this sample project) to illustrate how much can be done in Heroku's free tier: 
-```
-Warning: Your slug size (326 MB) exceeds our soft limit (300 MB) which may affect boot time.
-```
+Issues with this data are as follows; The amount of uber drivers avaliable at these times are not shown, what if your traveling in a different month, the cost is not shown, etc. We are not able to see if the amount of rides correlates to the amount of drivers or the amount of people on the app the request a ride. This would proove useful beacuse at the moment while 1:00 am seems to the the least travled time, so does this mean you should take an uber so that you are guaranteed a ride or should you not request an uber because no one is providing a service. The dataset only tracks the month of July so if you are planning to travel a different month you can use the same methodologies used on this dataset but could not come to a conclusion for those months bashed on this one. Another factor when determining a ride time is the price. The price was not giving for each ride so our answer is soley based on the amount of riders.
+
+The analysis on the dataset above is useful because shows us the times to avoid during the week and during the day when traveling to NYC. This would be most acurate if your traveling a year after this data set is released but because less and less acurate as the years go on.
+
+This project could be imporved over time by simply adding data from the years to come to keep the estimates accurate.
 
 ## Summary
 This sample project deploys a supervised regression model to predict insurance costs based on 6 features. After experimenting with various feature engineering techniques, the deployed model's testing accuracy hovers around 73%. 
