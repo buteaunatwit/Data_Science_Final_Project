@@ -29,7 +29,12 @@ For my question I did not need Lat and Lon so I decided to drop those columns. S
 
 ![Image#0](https://user-images.githubusercontent.com/77858100/206063527-55884e58-66de-471c-9d85-08f60a2ad0d4.JPG)
 
-To make the date and time more readable I converting them from a str value to a datetime value and then to data/time more usable I split them into their own respective columns. Those columns being timeOfDay, dayOfWeek, and date. Before making them all their own columns I floored the times to the 15 minute mark to make the data easier to analyze in a graph.
+To make the date and time more readable I converting them from a str value to a datetime value and then to data/time more usable I split them into their own respective columns. Those columns being timeOfDay, dayOfWeek, and date. Before making them all their own columns I floored the times to the 15 minute mark to make the data easier to analyze in a graph. Those changes are shown below:
+
+![Image6](https://user-images.githubusercontent.com/77858100/206064711-cc9bf203-d5e2-4cff-80c4-b0489c14771c.JPG)
+![day](https://user-images.githubusercontent.com/77858100/206065259-a166ee56-ea40-4027-8566-b83cbdcd86cc.JPG)
+![date](https://user-images.githubusercontent.com/77858100/206065268-c080e8a4-702c-4ccc-82d5-9a5051ddcec0.JPG)
+![timeOfDay](https://user-images.githubusercontent.com/77858100/206065279-31b55283-1503-44a7-b6f1-96448e2b284d.JPG)
 
 ## Methods
 
