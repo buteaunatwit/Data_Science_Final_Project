@@ -18,7 +18,7 @@ The source of the dataset comes from [here](https://www.kaggle.com/datasets/five
 
 Characteristics of data?
 
-The model processing and training are conducted using a Jupyter Notebook and is available [here](https://github.com/memoatwit/dsexample/blob/master/Insurance%20-%20Model%20Training%20Notebook.ipynb).
+The model processing and training are conducted using a Jupyter Notebook and is available [here](https://github.com/buteaunatwit/Data_Science_Final_Project/blob/main/Final_Noah_Buteau_Uber_Data_Analysis.ipynb).
 
 The table consitst of 796121 rows and 8 columns.
 The objective is find the best time and day to take an uber.
