@@ -27,7 +27,7 @@ The column names are Date/Time,	Lat, Lon,	Base. Date/Time being the date and tim
 Any munging, imputation, or feature engineering?
 For my question I did not need Lat and Lon so I decided to drop those columns. Shown here:
 
-IMAGE
+![Image#0](https://user-images.githubusercontent.com/77858100/206063527-55884e58-66de-471c-9d85-08f60a2ad0d4.JPG)
 
 To make the date and time more readable I converting them from a str value to a datetime value and then to data/time more usable I split them into their own respective columns. Those columns being timeOfDay, dayOfWeek, and date. Before making them all their own columns I floored the times to the 15 minute mark to make the data easier to analyze in a graph.
 
