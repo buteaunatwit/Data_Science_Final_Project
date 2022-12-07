@@ -42,7 +42,7 @@ These tools were used to graph and to anaylze the data.
 ## Results
 My results are shown below in the following graphs:
 
-INSERT IMAGE
+![data screenshot](./image#1.jpeg)
 (The first graph is in bar plot and the second is in line plot)
 
 In this graph we are shown the amount of rides over the course of the month. The interesting thing about this is the trend that repeats itself every seven days. This being the weekly cycle. This doesnt really answer our question and seems to be too inconclusive and too inconsitant to definetly say what day we should travel on. So lets go another step and look into the average rides per week in  the month of July.
