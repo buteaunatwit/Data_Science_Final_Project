@@ -49,7 +49,7 @@ My results are shown below in the following graphs:
 
 In this graph we are shown the amount of rides over the course of the month. The interesting thing about this is the trend that repeats itself every seven days. This being the weekly cycle. This doesnt really answer our question and seems to be too inconclusive and too inconsitant to definetly say what day we should travel on. So lets go another step and look into the average rides per week in  the month of July.
 
-[Image#3](https://user-images.githubusercontent.com/77858100/206062639-a7949f4a-126b-4b49-b1d8-9a53f5eba5a1.JPG)
+![Image#3](https://user-images.githubusercontent.com/77858100/206062639-a7949f4a-126b-4b49-b1d8-9a53f5eba5a1.JPG)
 
 Our second graph here shows the average amount of rides taken per each day of the week. This allows us to narrow down the day upon which the least amount of rides occur. That day being Monday. Now we know which day to travel but now we want to figure out which time of the day would be the best to travel at. Not only for monday !
 but for all the days as well.
