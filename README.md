@@ -35,6 +35,7 @@ To make the date and time more readable I converting them from a str value to a 
 ![day](https://user-images.githubusercontent.com/77858100/206065259-a166ee56-ea40-4027-8566-b83cbdcd86cc.JPG)
 ![date](https://user-images.githubusercontent.com/77858100/206065268-c080e8a4-702c-4ccc-82d5-9a5051ddcec0.JPG)
 ![timeOfDay](https://user-images.githubusercontent.com/77858100/206065279-31b55283-1503-44a7-b6f1-96448e2b284d.JPG)
+![floor](https://user-images.githubusercontent.com/77858100/206065395-52080acf-0e19-42a3-b3dd-be0e54c1dab8.JPG)
 
 ## Methods
 
